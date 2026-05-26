@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
+    <div className="w-full min-h-screen bg-black">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -13,7 +13,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Analytics />
-    </>
+    </div>
   );
 }
 
