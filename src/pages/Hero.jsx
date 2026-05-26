@@ -70,7 +70,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black to-gray-900 py-4"
+      className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black to-gray-900 py-28"
     >
       {/* Floating Shapes */}
       {shapes.map((shape, i) => (
